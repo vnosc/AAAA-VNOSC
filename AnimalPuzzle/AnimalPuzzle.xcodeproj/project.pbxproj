@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		936AE19616DB1194008EFA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AE19516DB1194008EFA7F /* UIKit.framework */; };
+		936AE19816DB1194008EFA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AE19716DB1194008EFA7F /* Foundation.framework */; };
+		936AE19A16DB1194008EFA7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AE19916DB1194008EFA7F /* CoreGraphics.framework */; };
+		936AE1A016DB1194008EFA7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936AE19E16DB1194008EFA7F /* InfoPlist.strings */; };
+		936AE1A216DB1194008EFA7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 936AE1A116DB1194008EFA7F /* main.m */; };
+		936AE1A616DB1194008EFA7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 936AE1A516DB1194008EFA7F /* AppDelegate.m */; };
+		936AE1A916DB1194008EFA7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936AE1A816DB1194008EFA7F /* ViewController.m */; };
+		936AE1AC16DB1195008EFA7F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936AE1AA16DB1195008EFA7F /* ViewController_iPhone.xib */; };
+		936AE1AF16DB1195008EFA7F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936AE1AD16DB1195008EFA7F /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		936AE19116DB1194008EFA7F /* AnimalPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		936AE19516DB1194008EFA7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		936AE19716DB1194008EFA7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		936AE19916DB1194008EFA7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		936AE19D16DB1194008EFA7F /* AnimalPuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimalPuzzle-Info.plist"; sourceTree = "<group>"; };
+		936AE19F16DB1194008EFA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		936AE1A116DB1194008EFA7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		936AE1A316DB1194008EFA7F /* AnimalPuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimalPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		936AE1A416DB1194008EFA7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		936AE1A516DB1194008EFA7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		936AE1A716DB1194008EFA7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		936AE1A816DB1194008EFA7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		936AE1AB16DB1195008EFA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		936AE1AE16DB1195008EFA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		936AE18E16DB1194008EFA7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936AE19616DB1194008EFA7F /* UIKit.framework in Frameworks */,
+				936AE19816DB1194008EFA7F /* Foundation.framework in Frameworks */,
+				936AE19A16DB1194008EFA7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		936AE18616DB1194008EFA7F = {
+			isa = PBXGroup;
+			children = (
+				936AE19B16DB1194008EFA7F /* AnimalPuzzle */,
+				936AE19416DB1194008EFA7F /* Frameworks */,
+				936AE19216DB1194008EFA7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		936AE19216DB1194008EFA7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936AE19116DB1194008EFA7F /* AnimalPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		936AE19416DB1194008EFA7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				936AE19516DB1194008EFA7F /* UIKit.framework */,
+				936AE19716DB1194008EFA7F /* Foundation.framework */,
+				936AE19916DB1194008EFA7F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		936AE19B16DB1194008EFA7F /* AnimalPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				936AE1A416DB1194008EFA7F /* AppDelegate.h */,
+				936AE1A516DB1194008EFA7F /* AppDelegate.m */,
+				936AE1A716DB1194008EFA7F /* ViewController.h */,
+				936AE1A816DB1194008EFA7F /* ViewController.m */,
+				936AE1AA16DB1195008EFA7F /* ViewController_iPhone.xib */,
+				936AE1AD16DB1195008EFA7F /* ViewController_iPad.xib */,
+				936AE19C16DB1194008EFA7F /* Supporting Files */,
+			);
+			path = AnimalPuzzle;
+			sourceTree = "<group>";
+		};
+		936AE19C16DB1194008EFA7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				936AE19D16DB1194008EFA7F /* AnimalPuzzle-Info.plist */,
+				936AE19E16DB1194008EFA7F /* InfoPlist.strings */,
+				936AE1A116DB1194008EFA7F /* main.m */,
+				936AE1A316DB1194008EFA7F /* AnimalPuzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		936AE19016DB1194008EFA7F /* AnimalPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936AE1B216DB1195008EFA7F /* Build configuration list for PBXNativeTarget "AnimalPuzzle" */;
+			buildPhases = (
+				936AE18D16DB1194008EFA7F /* Sources */,
+				936AE18E16DB1194008EFA7F /* Frameworks */,
+				936AE18F16DB1194008EFA7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalPuzzle;
+			productName = AnimalPuzzle;
+			productReference = 936AE19116DB1194008EFA7F /* AnimalPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		936AE18816DB1194008EFA7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 936AE18B16DB1194008EFA7F /* Build configuration list for PBXProject "AnimalPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 936AE18616DB1194008EFA7F;
+			productRefGroup = 936AE19216DB1194008EFA7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				936AE19016DB1194008EFA7F /* AnimalPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		936AE18F16DB1194008EFA7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936AE1A016DB1194008EFA7F /* InfoPlist.strings in Resources */,
+				936AE1AC16DB1195008EFA7F /* ViewController_iPhone.xib in Resources */,
+				936AE1AF16DB1195008EFA7F /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		936AE18D16DB1194008EFA7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936AE1A216DB1194008EFA7F /* main.m in Sources */,
+				936AE1A616DB1194008EFA7F /* AppDelegate.m in Sources */,
+				936AE1A916DB1194008EFA7F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		936AE19E16DB1194008EFA7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936AE19F16DB1194008EFA7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		936AE1AA16DB1195008EFA7F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936AE1AB16DB1195008EFA7F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		936AE1AD16DB1195008EFA7F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936AE1AE16DB1195008EFA7F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		936AE1B016DB1195008EFA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		936AE1B116DB1195008EFA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		936AE1B316DB1195008EFA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimalPuzzle/AnimalPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "AnimalPuzzle/AnimalPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		936AE1B416DB1195008EFA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimalPuzzle/AnimalPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "AnimalPuzzle/AnimalPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		936AE18B16DB1194008EFA7F /* Build configuration list for PBXProject "AnimalPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936AE1B016DB1195008EFA7F /* Debug */,
+				936AE1B116DB1195008EFA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936AE1B216DB1195008EFA7F /* Build configuration list for PBXNativeTarget "AnimalPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936AE1B316DB1195008EFA7F /* Debug */,
+				936AE1B416DB1195008EFA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 936AE18816DB1194008EFA7F /* Project object */;
+}

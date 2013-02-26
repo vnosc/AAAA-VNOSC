@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E6B85E816DC67E400A710C2 /* AnimalObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B85E716DC67E400A710C2 /* AnimalObj.m */; };
+		8E6B85EB16DC694800A710C2 /* PiceObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B85EA16DC694800A710C2 /* PiceObj.m */; };
 		936AE19616DB1194008EFA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AE19516DB1194008EFA7F /* UIKit.framework */; };
 		936AE19816DB1194008EFA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AE19716DB1194008EFA7F /* Foundation.framework */; };
 		936AE19A16DB1194008EFA7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AE19916DB1194008EFA7F /* CoreGraphics.framework */; };
@@ -747,6 +749,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E6B85E616DC67E400A710C2 /* AnimalObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalObj.h; path = Objects/AnimalObj.h; sourceTree = "<group>"; };
+		8E6B85E716DC67E400A710C2 /* AnimalObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalObj.m; path = Objects/AnimalObj.m; sourceTree = "<group>"; };
+		8E6B85E916DC694800A710C2 /* PiceObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PiceObj.h; path = Objects/PiceObj.h; sourceTree = "<group>"; };
+		8E6B85EA16DC694800A710C2 /* PiceObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PiceObj.m; path = Objects/PiceObj.m; sourceTree = "<group>"; };
 		936AE19116DB1194008EFA7F /* AnimalPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936AE19516DB1194008EFA7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		936AE19716DB1194008EFA7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1505,6 +1511,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E6B85E516DC67B400A710C2 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8E6B85E616DC67E400A710C2 /* AnimalObj.h */,
+				8E6B85E716DC67E400A710C2 /* AnimalObj.m */,
+				8E6B85E916DC694800A710C2 /* PiceObj.h */,
+				8E6B85EA16DC694800A710C2 /* PiceObj.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		936AE18616DB1194008EFA7F = {
 			isa = PBXGroup;
 			children = (
@@ -1556,6 +1573,7 @@
 		A580F06216DC4B040084C81C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8E6B85E516DC67B400A710C2 /* Objects */,
 				A580F06516DC4B280084C81C /* ViewConrtroller */,
 				A580F06416DC4B170084C81C /* AppDelegate */,
 			);
@@ -3639,6 +3657,8 @@
 				936AE1A216DB1194008EFA7F /* main.m in Sources */,
 				936AE1A616DB1194008EFA7F /* AppDelegate.m in Sources */,
 				936AE1A916DB1194008EFA7F /* ViewController.m in Sources */,
+				8E6B85E816DC67E400A710C2 /* AnimalObj.m in Sources */,
+				8E6B85EB16DC694800A710C2 /* PiceObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

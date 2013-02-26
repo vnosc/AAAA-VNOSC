@@ -744,6 +744,8 @@
 		A580F65616DC4B910084C81C /* item7_1.xml in Resources */ = {isa = PBXBuildFile; fileRef = A580F37E16DC4B900084C81C /* item7_1.xml */; };
 		A580F65716DC4B910084C81C /* item8_1.xml in Resources */ = {isa = PBXBuildFile; fileRef = A580F37F16DC4B900084C81C /* item8_1.xml */; };
 		A580F65816DC4B910084C81C /* item9_1.xml in Resources */ = {isa = PBXBuildFile; fileRef = A580F38016DC4B900084C81C /* item9_1.xml */; };
+		A580F65D16DC4E450084C81C /* AnimalPuzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A580F65B16DC4E450084C81C /* AnimalPuzzle.m */; };
+		A580F65E16DC4E450084C81C /* AnimalPuzzle.xib in Resources */ = {isa = PBXBuildFile; fileRef = A580F65C16DC4E450084C81C /* AnimalPuzzle.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1489,6 +1491,9 @@
 		A580F37E16DC4B900084C81C /* item7_1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = item7_1.xml; sourceTree = "<group>"; };
 		A580F37F16DC4B900084C81C /* item8_1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = item8_1.xml; sourceTree = "<group>"; };
 		A580F38016DC4B900084C81C /* item9_1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = item9_1.xml; sourceTree = "<group>"; };
+		A580F65A16DC4E450084C81C /* AnimalPuzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalPuzzle.h; sourceTree = "<group>"; };
+		A580F65B16DC4E450084C81C /* AnimalPuzzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalPuzzle.m; sourceTree = "<group>"; };
+		A580F65C16DC4E450084C81C /* AnimalPuzzle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalPuzzle.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1556,6 +1561,7 @@
 		A580F06216DC4B040084C81C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A580F65916DC4D410084C81C /* AnimalPuzzle */,
 				A580F06516DC4B280084C81C /* ViewConrtroller */,
 				A580F06416DC4B170084C81C /* AppDelegate */,
 			);
@@ -2845,6 +2851,16 @@
 			path = medium;
 			sourceTree = "<group>";
 		};
+		A580F65916DC4D410084C81C /* AnimalPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				A580F65A16DC4E450084C81C /* AnimalPuzzle.h */,
+				A580F65B16DC4E450084C81C /* AnimalPuzzle.m */,
+				A580F65C16DC4E450084C81C /* AnimalPuzzle.xib */,
+			);
+			name = AnimalPuzzle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3626,6 +3642,7 @@
 				A580F65616DC4B910084C81C /* item7_1.xml in Resources */,
 				A580F65716DC4B910084C81C /* item8_1.xml in Resources */,
 				A580F65816DC4B910084C81C /* item9_1.xml in Resources */,
+				A580F65E16DC4E450084C81C /* AnimalPuzzle.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3639,6 +3656,7 @@
 				936AE1A216DB1194008EFA7F /* main.m in Sources */,
 				936AE1A616DB1194008EFA7F /* AppDelegate.m in Sources */,
 				936AE1A916DB1194008EFA7F /* ViewController.m in Sources */,
+				A580F65D16DC4E450084C81C /* AnimalPuzzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

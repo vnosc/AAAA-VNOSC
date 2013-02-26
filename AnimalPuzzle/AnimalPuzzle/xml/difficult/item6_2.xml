@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item6.png" image_light="images/item6_light.png" sound="item6.mp3"
+	x="56" y="22" division="4" id="6">
+	<item id="0">
+		<fromX>43</fromX>
+		<fromY>79</fromY>
+		<toX>43</toX>
+		<toY>79</toY>
+		<image>images/item6_2/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>607</fromX>
+		<fromY>127</fromY>
+		<toX>105</toX>
+		<toY>79</toY>
+		<image>images/item6_2/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>701</fromX>
+		<fromY>222</fromY>
+		<toX>123</toX>
+		<toY>183</toY>
+		<image>images/item6_2/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>608</fromX>
+		<fromY>91</fromY>
+		<toX>209</toX>
+		<toY>153</toY>
+		<image>images/item6_2/3.png</image>
+	</item>
+
+	<item id="4">
+		<fromX>631</fromX>
+		<fromY>268</fromY>
+		<toX>188</toX>
+		<toY>219</toY>
+		<image>images/item6_2/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>648</fromX>
+		<fromY>322</fromY>
+		<toX>102</toX>
+		<toY>306</toY>
+		<image>images/item6_2/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>589</fromX>
+		<fromY>381</fromY>
+		<toX>250</toX>
+		<toY>286</toY>
+		<image>images/item6_2/6.png</image>
+	</item>
+	<item id="7">
+		<fromX>505</fromX>
+		<fromY>76</fromY>
+		<toX>116</toX>
+		<toY>147</toY>
+		<image>images/item6_2/7.png</image>
+	</item>
+	<item id="8">
+		<fromX>479</fromX>
+		<fromY>226</fromY>
+		<toX>169</toX>
+		<toY>125</toY>
+		<image>images/item6_2/8.png</image>
+	</item>
+	<item id="9">
+		<fromX>462</fromX>
+		<fromY>321</fromY>
+		<toX>168</toX>
+		<toY>159</toY>
+		<image>images/item6_2/9.png</image>
+	</item>
+	<item id="10">
+		<fromX>391</fromX>
+		<fromY>91</fromY>
+		<toX>184</toX>
+		<toY>255</toY>
+		<image>images/item6_2/10.png</image>
+	</item>
+	<item id="11">
+		<fromX>344</fromX>
+		<fromY>363</fromY>
+		<toX>168</toX>
+		<toY>290</toY>
+		<image>images/item6_2/11.png</image>
+	</item>
+	<item id="12">
+		<fromX>344</fromX>
+		<fromY>251</fromY>
+		<toX>44</toX>
+		<toY>202</toY>
+		<image>images/item6_2/12.png</image>
+	</item>
+	<item id="13">
+		<fromX>276</fromX>
+		<fromY>48</fromY>
+		<toX>63</toX>
+		<toY>258</toY>
+		<image>images/item6_2/13.png</image>
+	</item>
+	<item id="14">
+		<fromX>566</fromX>
+		<fromY>203</fromY>
+		<toX>267</toX>
+		<toY>169</toY>
+		<image>images/item6_2/14.png</image>
+	</item>
+	<item id="15">
+		<fromX>391</fromX>
+		<fromY>174</fromY>
+		<toX>236</toX>
+		<toY>215</toY>
+		<image>images/item6_2/15.png</image>
+	</item>
+</items>

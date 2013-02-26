@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item3.png" image_light="images/item3_light.png" sound="item3.mp3"
+	x="380" y="22" division="4" id="3">
+	<item id="0">
+		<fromX>70</fromX>
+		<fromY>72</fromY>
+		<toX>70</toX>
+		<toY>72</toY>
+		<image>images/item3/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>603</fromX>
+		<fromY>245</fromY>
+		<toX>138</toX>
+		<toY>73</toY>
+		<image>images/item3/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>646</fromX>
+		<fromY>112</fromY>
+		<toX>121</toX>
+		<toY>138</toY>
+		<image>images/item3/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>590</fromX>
+		<fromY>46</fromY>
+		<toX>90</toX>
+		<toY>186</toY>
+		<image>images/item3/3.png</image>
+	</item>
+
+	<item id="4">
+		<fromX>595</fromX>
+		<fromY>195</fromY>
+		<toX>126</toX>
+		<toY>225</toY>
+		<image>images/item3/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>550</fromX>
+		<fromY>285</fromY>
+		<toX>69</toX>
+		<toY>222</toY>
+		<image>images/item3/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>489</fromX>
+		<fromY>317</fromY>
+		<toX>71</toX>
+		<toY>255</toY>
+		<image>images/item3/6.png</image>
+	</item>
+	
+
+</items>

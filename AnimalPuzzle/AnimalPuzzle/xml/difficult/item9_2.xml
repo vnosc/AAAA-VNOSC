@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item9.png" image_light="images/item9_light.png" sound="item9.mp3"
+	x="622" y="121" division="4" id="9">
+	<item id="0">
+		<fromX>91</fromX>
+		<fromY>93</fromY>
+		<toX>91</toX>
+		<toY>93</toY>
+		<image>images/item9_2/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>530</fromX>
+		<fromY>131</fromY>
+		<toX>90</toX>
+		<toY>135</toY>
+		<image>images/item9_2/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>547</fromX>
+		<fromY>255</fromY>
+		<toX>119</toX>
+		<toY>93</toY>
+		<image>images/item9_2/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>472</fromX>
+		<fromY>198</fromY>
+		<toX>127</toX>
+		<toY>126</toY>
+		<image>images/item9_2/3.png</image>
+	</item>
+	<item id="4">
+		<fromX>378</fromX>
+		<fromY>293</fromY>
+		<toX>99</toX>
+		<toY>115</toY>
+		<image>images/item9_2/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>368</fromX>
+		<fromY>68</fromY>
+		<toX>137</toX>
+		<toY>333</toY>
+		<image>images/item9_2/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>615</fromX>
+		<fromY>63</fromY>
+		<toX>172</toX>
+		<toY>335</toY>
+		<image>images/item9_2/6.png</image>
+	</item>
+	<item id="7">
+		<fromX>662</fromX>
+		<fromY>148</fromY>
+		<toX>230</toX>
+		<toY>138</toY>
+		<image>images/item9_2/7.png</image>
+	</item>
+	<item id="8">
+		<fromX>597</fromX>
+		<fromY>330</fromY>
+		<toX>239</toX>
+		<toY>144</toY>
+		<image>images/item9_2/8.png</image>
+	</item>
+	<item id="9">
+		<fromX>341</fromX>
+		<fromY>142</fromY>
+		<toX>243</toX>
+		<toY>169</toY>
+		<image>images/item9_2/9.png</image>
+	</item>
+	<item id="10">
+		<fromX>463</fromX>
+		<fromY>43</fromY>
+		<toX>94</toX>
+		<toY>192</toY>
+		<image>images/item9_2/10.png</image>
+	</item>
+	<item id="11">
+		<fromX>495</fromX>
+		<fromY>313</fromY>
+		<toX>106</toX>
+		<toY>195</toY>
+		<image>images/item9_2/11.png</image>
+	</item>
+	<item id="12">
+		<fromX>662</fromX>
+		<fromY>54</fromY>
+		<toX>125</toX>
+		<toY>256</toY>
+		<image>images/item9_2/12.png</image>
+	</item>
+	<item id="13">
+		<fromX>581</fromX>
+		<fromY>156</fromY>
+		<toX>171</toX>
+		<toY>250</toY>
+		<image>images/item9_2/13.png</image>
+	</item>
+	<item id="14">
+		<fromX>257</fromX>
+		<fromY>50</fromY>
+		<toX>155</toX>
+		<toY>191</toY>
+		<image>images/item9_2/14.png</image>
+	</item>
+</items>

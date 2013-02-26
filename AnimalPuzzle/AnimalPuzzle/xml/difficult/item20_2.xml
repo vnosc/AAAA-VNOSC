@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item20.png" image_light="images/item20_light.png" sound="item20.mp3"
+	x="540" y="360" division="4" id="20">
+	<item id="0">
+		<fromX>45</fromX>
+		<fromY>109</fromY>
+		<toX>45</toX>
+		<toY>109</toY>
+		<image>images/item20_2/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>529</fromX>
+		<fromY>53</fromY>
+		<toX>45</toX>
+		<toY>184</toY>
+		<image>images/item20_2/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>669</fromX>
+		<fromY>376</fromY>
+		<toX>59</toX>
+		<toY>222</toY>
+		<image>images/item20_2/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>679</fromX>
+		<fromY>45</fromY>
+		<toX>125</toX>
+		<toY>149</toY>
+		<image>images/item20_2/3.png</image>
+	</item>
+	<item id="4">
+		<fromX>372</fromX>
+		<fromY>184</fromY>
+		<toX>56</toX>
+		<toY>109</toY>
+		<image>images/item20_2/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>436</fromX>
+		<fromY>40</fromY>
+		<toX>94</toX>
+		<toY>278</toY>
+		<image>images/item20_2/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>659</fromX>
+		<fromY>180</fromY>
+		<toX>116</toX>
+		<toY>226</toY>
+		<image>images/item20_2/6.png</image>
+	</item>
+	<item id="7">
+		<fromX>612</fromX>
+		<fromY>71</fromY>
+		<toX>300</toX>
+		<toY>285</toY>
+		<image>images/item20_2/7.png</image>
+	</item>
+	<item id="8">
+		<fromX>344</fromX>
+		<fromY>44</fromY>
+		<toX>125</toX>
+		<toY>251</toY>
+		<image>images/item20_2/8.png</image>
+	</item>
+	<item id="9">
+		<fromX>589</fromX>
+		<fromY>253</fromY>
+		<toX>168</toX>
+		<toY>260</toY>
+		<image>images/item20_2/9.png</image>
+	</item>
+	<item id="10">
+		<fromX>510</fromX>
+		<fromY>329</fromY>
+		<toX>243</toX>
+		<toY>262</toY>
+		<image>images/item20_2/10.png</image>
+	</item>
+	<item id="11">
+		<fromX>381</fromX>
+		<fromY>348</fromY>
+		<toX>200</toX>
+		<toY>143</toY>
+		<image>images/item20_2/11.png</image>
+	</item>
+	<item id="12">
+		<fromX>521</fromX>
+		<fromY>148</fromY>
+		<toX>199</toX>
+		<toY>209</toY>
+		<image>images/item20_2/12.png</image>
+	</item>
+</items>

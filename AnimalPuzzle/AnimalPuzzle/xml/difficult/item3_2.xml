@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item3.png" image_light="images/item3_light.png" sound="item3.mp3"
+	x="380" y="22" division="4" id="3">
+	<item id="0">
+		<fromX>58</fromX>
+		<fromY>80</fromY>
+		<toX>58</toX>
+		<toY>80</toY>
+		<image>images/item3_2/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>630</fromX>
+		<fromY>90</fromY>
+		<toX>232</toX>
+		<toY>96</toY>
+
+		<image>images/item3_2/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>604</fromX>
+		<fromY>235</fromY>
+		<toX>193</toX>
+		<toY>94</toY>
+		<image>images/item3_2/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>691</fromX>
+		<fromY>253</fromY>
+		<toX>201</toX>
+		<toY>98</toY>
+		<image>images/item3_2/3.png</image>
+	</item>
+
+	<item id="4">
+		<fromX>425</fromX>
+		<fromY>205</fromY>
+		<toX>125</toX>
+		<toY>80</toY>
+		<image>images/item3_2/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>630</fromX>
+		<fromY>309</fromY>
+		<toX>120</toX>
+		<toY>145</toY>
+		<image>images/item3_2/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>646</fromX>
+		<fromY>138</fromY>
+		<toX>108</toX>
+		<toY>171</toY>
+		<image>images/item3_2/6.png</image>
+	</item>
+	<item id="7">
+		<fromX>538</fromX>
+		<fromY>58</fromY>
+		<toX>82</toX>
+		<toY>193</toY>
+		<image>images/item3_2/7.png</image>
+	</item>
+	<item id="8">
+		<fromX>458</fromX>
+		<fromY>87</fromY>
+		<toX>76</toX>
+		<toY>231</toY>
+		<image>images/item3_2/8.png</image>
+	</item>
+	<item id="9">
+		<fromX>550</fromX>
+		<fromY>160</fromY>
+		<toX>76</toX>
+		<toY>227</toY>
+		<image>images/item3_2/9.png</image>
+	</item>
+	<item id="10">
+		<fromX>485</fromX>
+		<fromY>381</fromY>
+		<toX>113</toX>
+		<toY>231</toY>
+		<image>images/item3_2/10.png</image>
+	</item>
+	<item id="11">
+		<fromX>425</fromX>
+		<fromY>145</fromY>
+		<toX>58</toX>
+		<toY>262</toY>
+		<image>images/item3_2/11.png</image>
+	</item>
+	<item id="12">
+		<fromX>392</fromX>
+		<fromY>297</fromY>
+		<toX>58</toX>
+		<toY>231</toY>
+		<image>images/item3_2/12.png</image>
+	</item>
+</items>

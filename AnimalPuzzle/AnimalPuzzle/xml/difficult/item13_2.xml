@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item13.png" image_light="images/item13_light.png" sound="item13.mp3"
+	x="556" y="201" division="4" id="13">
+	<item id="0">
+		<fromX>44</fromX>
+		<fromY>96</fromY>
+		<toX>44</toX>
+		<toY>96</toY>
+		<image>images/item13_2/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>464</fromX>
+		<fromY>37</fromY>
+		<toX>46</toX>
+		<toY>96</toY>
+		<image>images/item13_2/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>633</fromX>
+		<fromY>292</fromY>
+		<toX>128</toX>
+		<toY>103</toY>
+		<image>images/item13_2/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>385</fromX>
+		<fromY>326</fromY>
+		<toX>54</toX>
+		<toY>168</toY>
+		<image>images/item13_2/3.png</image>
+	</item>
+	<item id="4">
+		<fromX>653</fromX>
+		<fromY>49</fromY>
+		<toX>185</toX>
+		<toY>349</toY>
+		<image>images/item13_2/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>539</fromX>
+		<fromY>296</fromY>
+		<toX>262</toX>
+		<toY>352</toY>
+		<image>images/item13_2/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>548</fromX>
+		<fromY>136</fromY>
+		<toX>134</toX>
+		<toY>274</toY>
+		<image>images/item13_2/6.png</image>
+	</item>
+	<item id="7">
+		<fromX>602</fromX>
+		<fromY>49</fromY>
+		<toX>115</toX>
+		<toY>344</toY>
+		<image>images/item13_2/7.png</image>
+	</item>
+	<item id="8">
+		<fromX>653</fromX>
+		<fromY>154</fromY>
+		<toX>67</toX>
+		<toY>237</toY>
+		<image>images/item13_2/8.png</image>
+	</item>
+	<item id="9">
+		<fromX>330</fromX>
+		<fromY>39</fromY>
+		<toX>204</toX>
+		<toY>269</toY>
+		<image>images/item13_2/9.png</image>
+	</item>
+	<item id="10">
+		<fromX>400</fromX>
+		<fromY>192</fromY>
+		<toX>206</toX>
+		<toY>313</toY>
+		<image>images/item13_2/10.png</image>
+	</item>
+	<item id="11">
+		<fromX>348</fromX>
+		<fromY>107</fromY>
+		<toX>145</toX>
+		<toY>257</toY>
+		<image>images/item13_2/11.png</image>
+	</item>
+	<item id="12">
+		<fromX>348</fromX>
+		<fromY>255</fromY>
+		<toX>200</toX>
+		<toY>228</toY>
+		<image>images/item13_2/12.png</image>
+	</item>
+</items>

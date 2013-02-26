@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item15.png" image_light="images/item15_light.png" sound="item15.mp3"
+	x="681" y="346" division="4" id="15">
+	<item id="0">
+		<fromX>26</fromX>
+		<fromY>75</fromY>
+		<toX>26</toX>
+		<toY>75</toY>
+		<image>images/item15_2/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>690</fromX>
+		<fromY>259</fromY>
+		<toX>32</toX>
+		<toY>170</toY>
+		<image>images/item15_2/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>660</fromX>
+		<fromY>326</fromY>
+		<toX>141</toX>
+		<toY>136</toY>
+		<image>images/item15_2/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>578</fromX>
+		<fromY>125</fromY>
+		<toX>114</toX>
+		<toY>285</toY>
+		<image>images/item15_2/3.png</image>
+	</item>
+	<item id="4">
+		<fromX>699</fromX>
+		<fromY>43</fromY>
+		<toX>27</toX>
+		<toY>110</toY>
+		<image>images/item15_2/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>534</fromX>
+		<fromY>283</fromY>
+		<toX>54</toX>
+		<toY>81</toY>
+		<image>images/item15_2/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>574</fromX>
+		<fromY>43</fromY>
+		<toX>137</toX>
+		<toY>76</toY>
+		<image>images/item15_2/6.png</image>
+	</item>
+	<item id="7">
+		<fromX>442</fromX>
+		<fromY>129</fromY>
+		<toX>124</toX>
+		<toY>123</toY>
+		<image>images/item15_2/7.png</image>
+	</item>
+	<item id="8">
+		<fromX>488</fromX>
+		<fromY>324</fromY>
+		<toX>33</toX>
+		<toY>222</toY>
+		<image>images/item15_2/8.png</image>
+	</item>
+	<item id="9">
+		<fromX>421</fromX>
+		<fromY>368</fromY>
+		<toX>61</toX>
+		<toY>217</toY>
+		<image>images/item15_2/9.png</image>
+	</item>
+	<item id="10">
+		<fromX>690</fromX>
+		<fromY>138</fromY>
+		<toX>228</toX>
+		<toY>318</toY>
+		<image>images/item15_2/10.png</image>
+	</item>
+	<item id="11">
+		<fromX>306</fromX>
+		<fromY>306</fromY>
+		<toX>182</toX>
+		<toY>223</toY>
+		<image>images/item15_2/11.png</image>
+	</item>
+	<item id="12">
+		<fromX>329</fromX>
+		<fromY>34</fromY>
+		<toX>193</toX>
+		<toY>198</toY>
+		<image>images/item15_2/12.png</image>
+	</item>
+</items>

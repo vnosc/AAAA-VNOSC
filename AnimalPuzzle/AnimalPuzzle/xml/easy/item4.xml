@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item4.png" image_light="images/item4_light.png" sound="item4.mp3"
+	x="145" y="116" division="4" id="4">
+	<item id="0">
+		<fromX>109</fromX>
+		<fromY>95</fromY>
+		<toX>109</toX>
+		<toY>95</toY>
+		<image>images/item4/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>415</fromX>
+		<fromY>73</fromY>
+		<toX>171</toX>
+		<toY>96</toY>
+
+		<image>images/item4/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>604</fromX>
+		<fromY>69</fromY>
+		<toX>111</toX>
+		<toY>139</toY>
+		<image>images/item4/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>476</fromX>
+		<fromY>212</fromY>
+		<toX>108</toX>
+		<toY>313</toY>
+		<image>images/item4/3.png</image>
+	</item>
+
+	<item id="4">
+		<fromX>622</fromX>
+		<fromY>293</fromY>
+		<toX>192</toX>
+		<toY>281</toY>
+		<image>images/item4/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>428</fromX>
+		<fromY>330</fromY>
+		<toX>171</toX>
+		<toY>219</toY>
+		<image>images/item4/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>342</fromX>
+		<fromY>159</fromY>
+		<toX>135</toX>
+		<toY>217</toY>
+		<image>images/item4/6.png</image>
+	</item>
+	
+</items>

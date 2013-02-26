@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items image="images/item17.png" image_light="images/item17_light.png" sound="item17.mp3"
+	x="287" y="323" division="4" id="17">
+	<item id="0">
+		<fromX>45</fromX>
+		<fromY>108</fromY>
+		<toX>45</toX>
+		<toY>108</toY>
+		<image>images/item17_1/bg.png</image>
+	</item>
+	<item id="1">
+		<fromX>675</fromX>
+		<fromY>97</fromY>
+		<toX>45</toX>
+		<toY>175</toY>
+		<image>images/item17_1/1.png</image>
+	</item>
+
+	<item id="2">
+		<fromX>690</fromX>
+		<fromY>220</fromY>
+		<toX>159</toX>
+		<toY>274</toY>
+		<image>images/item17_1/2.png</image>
+	</item>
+	<item id="3">
+		<fromX>603</fromX>
+		<fromY>84</fromY>
+		<toX>185</toX>
+		<toY>251</toY>
+		<image>images/item17_1/3.png</image>
+	</item>
+
+	<item id="4">
+		<fromX>665</fromX>
+		<fromY>307</fromY>
+		<toX>267</toX>
+		<toY>240</toY>
+		<image>images/item17_1/4.png</image>
+	</item>
+	<item id="5">
+		<fromX>628</fromX>
+		<fromY>240</fromY>
+		<toX>218</toX>
+		<toY>307</toY>
+		<image>images/item17_1/5.png</image>
+	</item>
+	<item id="6">
+		<fromX>575</fromX>
+		<fromY>307</fromY>
+		<toX>149</toX>
+		<toY>159</toY>
+		<image>images/item17_1/6.png</image>
+	</item>
+	<item id="7">
+		<fromX>414</fromX>
+		<fromY>57</fromY>
+		<toX>77</toX>
+		<toY>107</toY>
+		<image>images/item17_1/7.png</image>
+	</item>
+	<item id="8">
+		<fromX>376</fromX>
+		<fromY>263</fromY>
+		<toX>180</toX>
+		<toY>192</toY>
+		<image>images/item17_1/8.png</image>
+	</item>
+	<item id="9">
+		<fromX>345</fromX>
+		<fromY>104</fromY>
+		<toX>255</toX>
+		<toY>299</toY>
+		<image>images/item17_1/9.png</image>
+	</item>
+</items>

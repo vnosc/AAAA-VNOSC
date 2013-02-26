@@ -12,6 +12,15 @@
 {
     IBOutlet UIImageView *cloud;
     IBOutlet UIImageView *image;
+    UIView *mainView;
+    UIImageView * _bird;
+    NSMutableArray *_attachments;
+    NSInteger *_tatolSize;
+    CGRect birdBinFrame;
 }
+@property (nonatomic, retain) UIView *mainView;
+@property (nonatomic, retain) NSMutableArray *attachments;
 
+@property (nonatomic, retain) UIImageView *bird;
+@property (nonatomic) CGRect birdBinFrame;
 @end

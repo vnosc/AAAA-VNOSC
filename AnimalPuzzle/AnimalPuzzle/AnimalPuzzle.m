@@ -9,6 +9,10 @@
 #import "AnimalPuzzle.h"
 
 @implementation AnimalPuzzle
+//@synthesize delegate;
+@synthesize mainView;
+@synthesize attachments = _attachments;
+@synthesize bird = _bird,birdBinFrame;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +41,7 @@
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self touchesBegan:touches withEvent:event];
+    NSLog(@" touches ");
 }
 
 -(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)even

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AnimalPuzzle.h"
 
 @implementation ViewController
 
@@ -29,6 +30,12 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+- (IBAction)level1
+{
+    AnimalPuzzle *animalPuzzle = [[AnimalPuzzle alloc] init];
+    [self presentModalViewController:animalPuzzle animated:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated

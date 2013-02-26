@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8E1AE90416DC93D700D55DB9 /* DrawMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AE90316DC93D700D55DB9 /* DrawMain.m */; };
 		8E1AE90716DC93EA00D55DB9 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AE90616DC93EA00D55DB9 /* DrawView.m */; };
+		8E1AE90A16DC95A800D55DB9 /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AE90916DC95A800D55DB9 /* UserSession.m */; };
+		8E1AE90F16DCB15D00D55DB9 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AE90E16DCB15D00D55DB9 /* Common.m */; };
+		8E1AE91216DCB2FF00D55DB9 /* ResourseSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AE91116DCB2FF00D55DB9 /* ResourseSupport.m */; };
 		8E6B85F116DC706F00A710C2 /* AnimalObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B85EE16DC706F00A710C2 /* AnimalObj.m */; };
 		8E6B85F216DC706F00A710C2 /* PiceObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B85F016DC706F00A710C2 /* PiceObj.m */; };
 		936AE19616DB1194008EFA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AE19516DB1194008EFA7F /* UIKit.framework */; };
@@ -757,6 +760,12 @@
 		8E1AE90316DC93D700D55DB9 /* DrawMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawMain.m; path = AnimalPuzzle/DrawMain.m; sourceTree = "<group>"; };
 		8E1AE90516DC93EA00D55DB9 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawView.h; path = AnimalPuzzle/DrawView.h; sourceTree = "<group>"; };
 		8E1AE90616DC93EA00D55DB9 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawView.m; path = AnimalPuzzle/DrawView.m; sourceTree = "<group>"; };
+		8E1AE90816DC95A800D55DB9 /* UserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSession.h; path = AnimalPuzzle/UserSession.h; sourceTree = "<group>"; };
+		8E1AE90916DC95A800D55DB9 /* UserSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSession.m; path = AnimalPuzzle/UserSession.m; sourceTree = "<group>"; };
+		8E1AE90D16DCB15D00D55DB9 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		8E1AE90E16DCB15D00D55DB9 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		8E1AE91016DCB2FF00D55DB9 /* ResourseSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourseSupport.h; sourceTree = "<group>"; };
+		8E1AE91116DCB2FF00D55DB9 /* ResourseSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourseSupport.m; sourceTree = "<group>"; };
 		8E6B85ED16DC706F00A710C2 /* AnimalObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalObj.h; sourceTree = "<group>"; };
 		8E6B85EE16DC706F00A710C2 /* AnimalObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalObj.m; sourceTree = "<group>"; };
 		8E6B85EF16DC706F00A710C2 /* PiceObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiceObj.h; sourceTree = "<group>"; };
@@ -1522,6 +1531,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E1AE90C16DCB13C00D55DB9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8E1AE90D16DCB15D00D55DB9 /* Common.h */,
+				8E1AE90E16DCB15D00D55DB9 /* Common.m */,
+				8E1AE91016DCB2FF00D55DB9 /* ResourseSupport.h */,
+				8E1AE91116DCB2FF00D55DB9 /* ResourseSupport.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		8E6B85EC16DC706F00A710C2 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -1584,6 +1604,7 @@
 		A580F06216DC4B040084C81C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8E1AE90C16DCB13C00D55DB9 /* Common */,
 				8E6B85EC16DC706F00A710C2 /* Objects */,
 				A580F65916DC4D410084C81C /* AnimalPuzzle */,
 				A580F06516DC4B280084C81C /* ViewConrtroller */,
@@ -2885,6 +2906,8 @@
 				8E1AE90316DC93D700D55DB9 /* DrawMain.m */,
 				8E1AE90516DC93EA00D55DB9 /* DrawView.h */,
 				8E1AE90616DC93EA00D55DB9 /* DrawView.m */,
+				8E1AE90816DC95A800D55DB9 /* UserSession.h */,
+				8E1AE90916DC95A800D55DB9 /* UserSession.m */,
 			);
 			name = AnimalPuzzle;
 			sourceTree = "<group>";
@@ -3689,6 +3712,9 @@
 				8E6B85F216DC706F00A710C2 /* PiceObj.m in Sources */,
 				8E1AE90416DC93D700D55DB9 /* DrawMain.m in Sources */,
 				8E1AE90716DC93EA00D55DB9 /* DrawView.m in Sources */,
+				8E1AE90A16DC95A800D55DB9 /* UserSession.m in Sources */,
+				8E1AE90F16DCB15D00D55DB9 /* Common.m in Sources */,
+				8E1AE91216DCB2FF00D55DB9 /* ResourseSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnimalObj.h"
+#import "Common.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NSXMLParserDelegate>{
+    NSXMLParser *parser;
+    BOOL inItems;
+    BOOL inItem;
+    BOOL inFromX;
+    BOOL inFromY;
+    BOOL inToX;
+    BOOL inToY;
+    BOOL inImage;
+    AnimalObj *animalObj;
+    NSString *imageName;
+}
 
 - (IBAction)level1;
+- (void) readAnimalInfo: (LEVEL) level;
 
 @end

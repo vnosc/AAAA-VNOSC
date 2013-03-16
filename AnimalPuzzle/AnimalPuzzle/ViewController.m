@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [self readAnimalInfo:EASY];
+    [self readAnimalInfo:MEDIUM];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -81,6 +82,7 @@
         NSData *xmlData = [NSData dataWithContentsOfFile:xmlPath];
         parser = [[NSXMLParser alloc] initWithData:xmlData];
         parser.delegate = self;
+        currentLevel = level;
         [parser parse];
     }
     //    NSLog(arrayXmlFiles);
@@ -121,6 +123,7 @@
     if (inItem) {
         if (inImage) {
             NSLog(@"%@", string);
+            NSLog(@"%d", currentLevel);
         }
     }
 }

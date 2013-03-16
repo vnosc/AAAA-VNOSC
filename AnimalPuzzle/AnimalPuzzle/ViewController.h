@@ -21,6 +21,7 @@
     BOOL inImage;
     AnimalObj *animalObj;
     NSString *imageName;
+    LEVEL currentLevel;
 }
 
 - (IBAction)level1;
